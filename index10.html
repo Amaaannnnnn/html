@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Thinker Institute</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+        padding: 0%;
+      }
+
+      .Container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-image: url("https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?semt=ais_hybrid&w=740&q=80");
+        background-repeat:no-repeat ;
+        background-size:1500px 1500px ;
+      }
+
+      .Header {
+        text-align: center;
+        color: white;
+        /* background-color: aqua; */
+      }
+
+      .Navbar {
+        justify-content: center;
+        padding: 20px;
+        display: flex;
+        gap: 200px;
+        cursor: pointer;
+        /* background-color: red; */
+      }
+
+      .nav-item:hover {
+        background-color: white;
+      }
+
+      .main {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        /* background-color: aquamarine; */
+      }
+
+      .card {
+        background-color: silver;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 10px black;
+      }
+
+      .para {
+        text-align: center;
+        /* background-color: blueviolet; */
+        color: black;
+      }
+
+      .footer {
+        text-align: center;
+        background-color: black;
+        color: white;
+      }
+
+      .bg {
+        color: black;
+        padding-top: 20px;
+      }
+
+      .bg1{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Container">
+      <header class="Header">
+        <h1>Coding Thinker Institute</h1>
+      </header>
+
+      <nav class="Navbar">
+        <a href="" class="nav-item">Home</a>
+        <a href="" class="nav-item">Cources</a>
+        <a href="" class="nav-item">About Us</a>
+        <a href="" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="para">
+        <p class="bg1">
+          Coding Thinker is a prominent, highly-rated training institute in
+          Bhopal (with branches in Gwalior, Indore, and Jabalpur) focusing on
+          industry-ready skills like Full Stack Development, Data Science,
+          Python, and Java + DSA
+        </p>
+      </div>
+
+      <section class="main">
+        <div class="card">
+          <h3>Python</h3>
+          <p class="bg">
+            Python is a high-level, general-purpose programming language known
+            for its clear, readable syntax that emphasizes developer
+            productivity and reduces code maintenance costs. Created by Guido
+            van Rossum in 1991, it is an open-source, interpreted language with
+            a vast ecosystem of libraries and frameworks that supports multiple
+            programming paradigms
+          </p>
+        </div>
+        <div class="card">
+          <h3>Web Dev</h3>
+          <p class="bg">
+            Web development is the process of building and maintaining websites
+            and web applications for the internet. This field covers a wide
+            range of tasks, from simple static pages to complex applications
+            like e-commerce systems. It typically involves using core
+            technologies such as HTML for structure, CSS for styling, and
+            JavaScript for interactivity. Developers often specialize in
+            front-end (user interface), back-end (server-side logic and
+            databases), or full-stack development, combining both areas
+          </p>
+        </div>
+        <div class="card">
+          <h3>Java</h3>
+          <p class="bg">
+            Java is a high-level, object-oriented programming language, designed
+            for platform independence with its "write once, run anywhere"
+            philosophy. Created by James Gosling at Sun Microsystems in 1995, it
+            is now owned by Oracle and powers billions of devices. It is widely
+            used in mobile app development (Android), web development (Spring
+            framework), enterprise systems, and big data technologies. Its
+            robustness and security features have ensured its lasting popularity
+            among developers.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Data Science</h3>
+          <p class="bg">
+            Data science is a multidisciplinary field that uses scientific
+            methods, algorithms, and systems to extract meaningful insights and
+            knowledge from large volumes of data. It combines skills from
+            statistics, mathematics, computer science, and domain expertise to
+            solve real-world problems and make informed decisions and
+            predictions. This process helps businesses optimize operations,
+            personalize customer experiences, and gain a competitive edge.
+          </p>
+        </div>
+        <div class="card">
+          <h3>AI</h3>
+          <p class="bg">
+            Artificial Intelligence (AI) is a transformative technology enabling
+            machines to mimic human intelligence, learning, and decision-making
+            to perform complex tasks. It enhances productivity across
+            industries—such as healthcare and finance—via automation and data
+            analysis. While driving innovation in robotics and daily tools, AI
+            brings challenges regarding ethics and job displacement.
+          </p>
+        </div>
+      </section>
+
+      <div class="footer">
+        <p>CopyRight @ 2025 Coding Thinker Institute</p>
+      </div>
+    </div>
+  </body>
+</html>
